@@ -14,29 +14,17 @@ public class ChainServer {
 
 	public AbstractServer getAllServers() {
 
-		/* INIT: servers creation */
-		ServerInfoDTO serverInfo01 = new ServerInfoDTO();
-		serverInfo01.setName("Server 01");
-		serverInfo01.setPort("8081");
-		serverInfo01.setIp("9.9.9.1");
-
+		// server one
+		ServerInfoDTO serverInfo01 = new ServerInfoDTO("Server 01", "8081", "9.9.9.1");
 		AbstractServer server01 = new Server(serverInfo01, false);
 
-		ServerInfoDTO serverInfo02 = new ServerInfoDTO();
-		serverInfo02.setName("Server 02");
-		serverInfo02.setPort("8082");
-		serverInfo02.setIp("9.9.9.2");
-
+		// server two
+		ServerInfoDTO serverInfo02 = new ServerInfoDTO("Server 02", "8082", "9.9.9.2");
 		AbstractServer server02 = new Server(serverInfo02, false);
 
-		ServerInfoDTO serverInfo03 = new ServerInfoDTO();
-		serverInfo03.setName("Server 03");
-		serverInfo03.setPort("8083");
-		serverInfo03.setIp("9.9.9.3");
-
+		// server three
+		ServerInfoDTO serverInfo03 = new ServerInfoDTO("Server 03", "8083", "9.9.9.3");
 		AbstractServer server03 = new Server(serverInfo03, false);
-
-		/* END: servers creation */
 
 		/**
 		 * chain servers creation
