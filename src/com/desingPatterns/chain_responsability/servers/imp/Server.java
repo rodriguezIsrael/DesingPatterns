@@ -40,7 +40,7 @@ public class Server extends AbstractServer {
 	 */
 	@Override
 	protected void doConnection() {
-		System.out.println("Doing conection....");
+		System.out.println("Doing connection....");
 
 		System.out.println("---------------------------");
 		System.out.println("-- name: " + this.serverInfo.getName());
