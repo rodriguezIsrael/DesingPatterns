@@ -1,4 +1,4 @@
-package com.desingPatterns.chain_responsability.demo;
+package com.desingPatterns.chain_responsability;
 
 import com.desingPatterns.chain_responsability.servers.AbstractServer;
 import com.desingPatterns.chain_responsability.servers.chain.ChainServer;
