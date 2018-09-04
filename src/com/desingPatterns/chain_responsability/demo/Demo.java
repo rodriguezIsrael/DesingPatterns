@@ -1,6 +1,6 @@
-package com.desingPatterns.chain_responsability.servers.demo;
+package com.desingPatterns.chain_responsability.demo;
 
-import com.desingPatterns.chain_responsability.AbstractServer;
+import com.desingPatterns.chain_responsability.servers.AbstractServer;
 import com.desingPatterns.chain_responsability.servers.chain.ChainServer;
 
 /**

@@ -1,6 +1,6 @@
 package com.desingPatterns.chain_responsability.servers.chain;
 
-import com.desingPatterns.chain_responsability.AbstractServer;
+import com.desingPatterns.chain_responsability.servers.AbstractServer;
 import com.desingPatterns.chain_responsability.servers.dto.ServerInfoDTO;
 import com.desingPatterns.chain_responsability.servers.imp.Server;
 

@@ -1,4 +1,4 @@
-package com.desingPatterns.chain_responsability;
+package com.desingPatterns.chain_responsability.servers;
 
 /**
  * 
