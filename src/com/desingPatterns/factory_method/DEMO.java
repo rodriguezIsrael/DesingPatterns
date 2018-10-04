@@ -16,9 +16,12 @@ import com.desingPatterns.factory_method.products.Car;
 public class DEMO {
 
 	public static void main(String... strings) {
-		CarFactory carFactory = new CarFactoryImp();
+		CarFactory carFactory;
+
 		Car car;
 		try {
+			carFactory = new CarFactoryImp();
+
 			car = carFactory.makeCar(CarTypeEnum.CAMARO);
 
 			car.run();
