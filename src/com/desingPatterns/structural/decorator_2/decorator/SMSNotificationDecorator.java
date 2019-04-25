@@ -1,6 +1,6 @@
-package com.desingPatterns.creational.decorator_2.decorator;
+package com.desingPatterns.structural.decorator_2.decorator;
 
-import com.desingPatterns.creational.decorator_2.Notification;
+import com.desingPatterns.structural.decorator_2.Notification;
 
 /**
  * 
@@ -18,7 +18,6 @@ public class SMSNotificationDecorator implements Notification {
 	 */
 	public SMSNotificationDecorator(Notification notification) {
 		this.notification = notification;
-		this.minuts = minuts;
 	}
 
 	/**

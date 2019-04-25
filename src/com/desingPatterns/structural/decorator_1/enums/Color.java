@@ -1,4 +1,4 @@
-package com.desingPatterns.creational.decorator_1.enums;
+package com.desingPatterns.structural.decorator_1.enums;
 
 /**
  * 

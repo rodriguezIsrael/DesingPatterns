@@ -1,7 +1,7 @@
-package com.desingPatterns.creational.decorator_1.decorators;
+package com.desingPatterns.structural.decorator_1.decorators;
 
-import com.desingPatterns.creational.decorator_1.Shapes.Shape;
-import com.desingPatterns.creational.decorator_1.enums.Color;
+import com.desingPatterns.structural.decorator_1.Shapes.Shape;
+import com.desingPatterns.structural.decorator_1.enums.Color;
 
 public class FillColorDecorator extends ShapeDecorator {
 

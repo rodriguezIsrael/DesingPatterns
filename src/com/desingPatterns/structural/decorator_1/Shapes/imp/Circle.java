@@ -1,6 +1,6 @@
-package com.desingPatterns.creational.decorator_1.Shapes.imp;
+package com.desingPatterns.structural.decorator_1.Shapes.imp;
 
-import com.desingPatterns.creational.decorator_1.Shapes.Shape;
+import com.desingPatterns.structural.decorator_1.Shapes.Shape;
 
 /**
  * 

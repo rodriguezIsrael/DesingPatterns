@@ -1,4 +1,4 @@
-package com.desingPatterns.creational.decorator_2;
+package com.desingPatterns.structural.decorator_2;
 
 /**
  * 

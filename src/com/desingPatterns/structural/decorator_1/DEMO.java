@@ -1,14 +1,14 @@
-package com.desingPatterns.creational.decorator_1;
+package com.desingPatterns.structural.decorator_1;
 
-import com.desingPatterns.creational.decorator_1.Shapes.Shape;
-import com.desingPatterns.creational.decorator_1.Shapes.imp.Circle;
-import com.desingPatterns.creational.decorator_1.Shapes.imp.Rectangle;
-import com.desingPatterns.creational.decorator_1.decorators.FillColorDecorator;
-import com.desingPatterns.creational.decorator_1.decorators.LineColorDecorator;
-import com.desingPatterns.creational.decorator_1.decorators.LineStyleDecorator;
-import com.desingPatterns.creational.decorator_1.decorators.LineThicknessDecorator;
-import com.desingPatterns.creational.decorator_1.enums.Color;
-import com.desingPatterns.creational.decorator_1.enums.LineStyle;
+import com.desingPatterns.structural.decorator_1.Shapes.Shape;
+import com.desingPatterns.structural.decorator_1.Shapes.imp.Circle;
+import com.desingPatterns.structural.decorator_1.Shapes.imp.Rectangle;
+import com.desingPatterns.structural.decorator_1.decorators.FillColorDecorator;
+import com.desingPatterns.structural.decorator_1.decorators.LineColorDecorator;
+import com.desingPatterns.structural.decorator_1.decorators.LineStyleDecorator;
+import com.desingPatterns.structural.decorator_1.decorators.LineThicknessDecorator;
+import com.desingPatterns.structural.decorator_1.enums.Color;
+import com.desingPatterns.structural.decorator_1.enums.LineStyle;
 
 /**
  * 
