@@ -1,7 +1,7 @@
-package com.desingPatterns.creational.chain_responsability.servers.imp;
+package com.desingPatterns.behavioral.chain_responsability.servers.chain.imp;
 
-import com.desingPatterns.creational.chain_responsability.servers.AbstractServer;
-import com.desingPatterns.creational.chain_responsability.servers.dto.ServerInfoDTO;
+import com.desingPatterns.behavioral.chain_responsability.servers.chain.AbstractServer;
+import com.desingPatterns.behavioral.chain_responsability.servers.chain.dto.ServerInfoDTO;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package com.desingPatterns.creational.chain_responsability.servers;
+package com.desingPatterns.behavioral.chain_responsability.servers.chain;
 
 /**
  * 

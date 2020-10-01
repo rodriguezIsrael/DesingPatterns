@@ -1,4 +1,4 @@
-package com.desingPatterns.creational.chain_responsability.servers.dto;
+package com.desingPatterns.behavioral.chain_responsability.servers.chain.dto;
 
 /**
  * This is the server information

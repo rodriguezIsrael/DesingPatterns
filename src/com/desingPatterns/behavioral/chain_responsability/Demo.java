@@ -1,7 +1,7 @@
-package com.desingPatterns.creational.chain_responsability;
+package com.desingPatterns.behavioral.chain_responsability;
 
-import com.desingPatterns.creational.chain_responsability.servers.AbstractServer;
-import com.desingPatterns.creational.chain_responsability.servers.chain.ChainServer;
+import com.desingPatterns.behavioral.chain_responsability.servers.chain.AbstractServer;
+import com.desingPatterns.behavioral.chain_responsability.servers.chain.ChainServer;
 
 /**
  * This is an example application for a chain responsability, This example it's

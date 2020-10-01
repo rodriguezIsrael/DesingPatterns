@@ -13,7 +13,6 @@ public class LineStyleDecorator extends ShapeDecorator {
 	}
 
 	@Override
-
 	public void draw() {
 
 		decoratedShape.draw();
@@ -25,7 +24,6 @@ public class LineStyleDecorator extends ShapeDecorator {
 	// no change in the functionality
 
 	@Override
-
 	public void resize() {
 
 		decoratedShape.resize();
@@ -33,7 +31,6 @@ public class LineStyleDecorator extends ShapeDecorator {
 	}
 
 	@Override
-
 	public String description() {
 
 		return decoratedShape.description() + " drawn with " + style + " lines.";
@@ -41,9 +38,7 @@ public class LineStyleDecorator extends ShapeDecorator {
 	}
 
 	// no change in the functionality
-
 	@Override
-
 	public boolean isHide() {
 
 		return decoratedShape.isHide();
